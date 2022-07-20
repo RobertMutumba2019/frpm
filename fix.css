@@ -1,0 +1,35 @@
+h1{
+    background-color: red;
+}
+body{
+    background-color:darkgoldenrod
+}
+.town{
+    background-color:darkblue;
+}
+
+
+.not{
+    text-align: right;
+}
+.thank{
+    width:100px;
+    height:50px;
+    padding: 20px;
+    text-align: center;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-name:blink;
+}
+    @keyframes blink{
+0%,100%{
+    background: moccasin;
+    color:black;
+}
+    50%{
+background:blue;
+color:cornsilk;
+border-radius:45px;
+    }
+    }
